@@ -1,5 +1,5 @@
 name: arduino
-version: 1.8.4
+version: 1.8.10
 summary: Arduino IDE
 description: Open-source electronics prototyping platform
 confinement: strict
@@ -21,7 +21,7 @@ parts:
             - usr/lib/*-linux-gnu/libXtst.so.6
             - usr/lib/*-linux-gnu/libXtst.so.6.1.0
     upstream:
-        source: https://www.arduino.cc/download.php?f=/arduino-1.8.4-linux64.tar.xz
+        source: https://www.arduino.cc/download.php?f=/arduino-1.8.10-linux64.tar.xz
         source-type: tar
         plugin: dump
         prime:
